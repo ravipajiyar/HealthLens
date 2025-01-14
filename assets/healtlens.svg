@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e" />
+      <stop offset="100%" style="stop-color:#16213e" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Scanner Icon (leftmost) -->
+  <rect x="100" y="200" width="120" height="120" fill="none" stroke="#537895" stroke-width="4" rx="10" />
+  <line x1="100" y1="240" x2="220" y2="240" stroke="#537895" stroke-width="2" opacity="0.6">
+    <animate attributeName="y1" from="220" to="300" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="y2" from="220" to="300" dur="2s" repeatCount="indefinite" />
+  </line>
+  
+  <!-- AI Analysis Icon -->
+  <circle cx="350" cy="260" r="60" fill="none" stroke="#537895" stroke-width="4" />
+  <path d="M320 260 L340 280 L380 240" stroke="#10b981" stroke-width="4" fill="none" />
+  <circle cx="350" cy="260" r="30" fill="none" stroke="#537895" stroke-width="2" opacity="0.5" />
+  
+  <!-- Personalized Recommendation Icon -->
+  <rect x="550" y="200" width="120" height="120" fill="none" stroke="#537895" stroke-width="4" rx="10" />
+  <path d="M570 240 L650 240" stroke="#537895" stroke-width="3" />
+  <path d="M570 260 L630 260" stroke="#537895" stroke-width="3" />
+  <path d="M570 280 L640 280" stroke="#537895" stroke-width="3" />
+  <circle cx="600" cy="220" r="8" fill="#10b981" />
+  
+  <!-- Profile Setup Icon (rightmost) -->
+  <circle cx="800" cy="260" r="40" fill="none" stroke="#537895" stroke-width="4" />
+  <circle cx="800" cy="240" r="15" fill="none" stroke="#537895" stroke-width="3" />
+  <path d="M770 290 Q800 320 830 290" fill="none" stroke="#537895" stroke-width="3" />
+  
+  <!-- Label Scan Results -->
+  <rect x="100" y="400" width="150" height="80" rx="10" fill="none" stroke="#537895" stroke-width="3" />
+  <path d="M110 420 h130 M110 440 h80 M110 460 h100" stroke="#537895" stroke-width="2" opacity="0.7" />
+</svg>
